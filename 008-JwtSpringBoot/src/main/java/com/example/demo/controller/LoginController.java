@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.bean.LoginReqBean;
 import com.example.demo.bean.LoginResBean;
+import com.example.demo.jwt.JwtTokenUtil;
 import com.example.demo.service.MyUserDeatilsService;
-import com.example.demo.util.JwtTokenUtil;
 
 @RestController
 public class LoginController {
